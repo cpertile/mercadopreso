@@ -82,4 +82,5 @@ export type SearchResult = {
   results: Product[];
   total: number;
   source: "local" | "mercadolivre" | "mixed";
+  ml?: "unavailable" | "empty" | "ok";
 };

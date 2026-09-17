@@ -29,10 +29,10 @@ export default function Home() {
             <Link
               key={category.slug}
               href={`/categoria/${category.slug}`}
-              className="flex min-w-[104px] flex-col items-center gap-2 rounded-md bg-white px-3 py-4 text-center shadow-sm"
+              className="flex min-h-[148px] min-w-[132px] flex-col items-center justify-center gap-3 rounded-md bg-white px-3 py-6 text-center shadow-sm md:min-h-[168px]"
             >
-              <span className="text-2xl">{category.icon}</span>
-              <span className="text-xs font-medium">{category.name}</span>
+              <span className="text-5xl leading-none md:text-6xl">{category.icon}</span>
+              <span className="text-sm font-medium">{category.name}</span>
             </Link>
           ))}
         </div>

@@ -1,15 +1,55 @@
 {
   "categories": [
-    { "slug": "eletronicos", "name": "Eletrônicos", "icon": "📱" },
-    { "slug": "casa", "name": "Casa", "icon": "🏠" },
-    { "slug": "moda", "name": "Moda", "icon": "👕" },
-    { "slug": "esportes", "name": "Esportes", "icon": "⚽" },
-    { "slug": "livros", "name": "Livros", "icon": "📚" },
-    { "slug": "brinquedos", "name": "Brinquedos", "icon": "🧸" },
-    { "slug": "beleza", "name": "Beleza", "icon": "💄" },
-    { "slug": "alimentos", "name": "Merenda", "icon": "🍔" },
-    { "slug": "automotivo", "name": "Automotivo", "icon": "🚗" },
-    { "slug": "pet", "name": "Pet", "icon": "🐶" }
+    {
+      "slug": "eletronicos",
+      "name": "Eletrônicos",
+      "icon": "📱"
+    },
+    {
+      "slug": "casa",
+      "name": "Casa",
+      "icon": "🏠"
+    },
+    {
+      "slug": "moda",
+      "name": "Moda",
+      "icon": "👕"
+    },
+    {
+      "slug": "esportes",
+      "name": "Esportes",
+      "icon": "⚽"
+    },
+    {
+      "slug": "livros",
+      "name": "Livros",
+      "icon": "📚"
+    },
+    {
+      "slug": "brinquedos",
+      "name": "Brinquedos",
+      "icon": "🧸"
+    },
+    {
+      "slug": "beleza",
+      "name": "Beleza",
+      "icon": "💄"
+    },
+    {
+      "slug": "alimentos",
+      "name": "Merenda",
+      "icon": "🍔"
+    },
+    {
+      "slug": "automotivo",
+      "name": "Automotivo",
+      "icon": "🚗"
+    },
+    {
+      "slug": "pet",
+      "name": "Pet",
+      "icon": "🐶"
+    }
   ],
   "products": [
     {
@@ -19,20 +59,33 @@
       "originalPrice": 5999,
       "category": "eletronicos",
       "images": [
-        "https://picsum.photos/seed/mp-01a/800/800",
-        "https://picsum.photos/seed/mp-01b/800/800",
-        "https://picsum.photos/seed/mp-01c/800/800"
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&h=800&q=80"
       ],
-      "seller": { "name": "Pátio Imports", "rating": 4.8, "sales": 12840 },
+      "seller": {
+        "name": "Pátio Imports",
+        "rating": 4.8,
+        "sales": 12840
+      },
       "description": "Celular de última geração com grade na câmera, modo silêncio permanente e bateria que dura uma sentença. Não faz ligações para fora. Produto fictício — simulação MercadoPreso.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 18,
       "attributes": [
-        { "name": "Marca", "value": "PresoPhone" },
-        { "name": "Memória", "value": "256 GB" },
-        { "name": "Cor", "value": "Laranja uniforme" }
+        {
+          "name": "Marca",
+          "value": "PresoPhone"
+        },
+        {
+          "name": "Memória",
+          "value": "256 GB"
+        },
+        {
+          "name": "Cor",
+          "value": "Laranja uniforme"
+        }
       ]
     },
     {
@@ -42,18 +95,28 @@
       "originalPrice": 5200,
       "category": "eletronicos",
       "images": [
-        "https://picsum.photos/seed/mp-02a/800/800",
-        "https://picsum.photos/seed/mp-02b/800/800"
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&h=800&q=80"
       ],
-      "seller": { "name": "Loja do Diretor", "rating": 4.6, "sales": 932 },
+      "seller": {
+        "name": "Loja do Diretor",
+        "rating": 4.6,
+        "sales": 932
+      },
       "description": "Notebook potente com teclado sem tecla Esc. Ideal para planilhas de merenda e cartas para o juiz. Não existe de verdade.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 7,
       "attributes": [
-        { "name": "Processador", "value": "i9 Sentença" },
-        { "name": "RAM", "value": "64 GB" }
+        {
+          "name": "Processador",
+          "value": "i9 Sentença"
+        },
+        {
+          "name": "RAM",
+          "value": "64 GB"
+        }
       ]
     },
     {
@@ -63,16 +126,25 @@
       "originalPrice": 349.9,
       "category": "eletronicos",
       "images": [
-        "https://picsum.photos/seed/mp-03a/800/800",
-        "https://picsum.photos/seed/mp-03b/800/800"
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&h=800&q=80"
       ],
-      "seller": { "name": "Cela 12 Oficial", "rating": 4.9, "sales": 54021 },
+      "seller": {
+        "name": "Cela 12 Oficial",
+        "rating": 4.9,
+        "sales": 54021
+      },
       "description": "Cancelamento de ruído tão forte que você não ouve nem a sirene. Simulação — nada será enviado.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 120,
-      "attributes": [{ "name": "Autonomia", "value": "40 h (de silêncio)" }]
+      "attributes": [
+        {
+          "name": "Autonomia",
+          "value": "40 h (de silêncio)"
+        }
+      ]
     },
     {
       "id": "mp-04",
@@ -81,18 +153,28 @@
       "originalPrice": 3499,
       "category": "eletronicos",
       "images": [
-        "https://picsum.photos/seed/mp-04a/800/800",
-        "https://picsum.photos/seed/mp-04b/800/800"
+        "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1461151309606-bf562815ecd0?auto=format&fit=crop&w=800&h=800&q=80"
       ],
-      "seller": { "name": "Grades & Cia", "rating": 4.2, "sales": 2104 },
+      "seller": {
+        "name": "Grades & Cia",
+        "rating": 4.2,
+        "sales": 2104
+      },
       "description": "Imagem 4K, quando deixa. App de streaming bloqueado pelo diretor. Produto de mentira.",
       "condition": "novo",
       "shippingLabel": "Preso Envios",
       "freeShipping": true,
       "stock": 11,
       "attributes": [
-        { "name": "Tamanho", "value": "65\"" },
-        { "name": "Resolução", "value": "4K (às vezes)" }
+        {
+          "name": "Tamanho",
+          "value": "65\""
+        },
+        {
+          "name": "Resolução",
+          "value": "4K (às vezes)"
+        }
       ]
     },
     {
@@ -101,16 +183,25 @@
       "price": 3499.9,
       "category": "eletronicos",
       "images": [
-        "https://picsum.photos/seed/mp-05a/800/800",
-        "https://picsum.photos/seed/mp-05b/800/800"
+        "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=800&h=800&q=80"
       ],
-      "seller": { "name": "Fuga Store", "rating": 4.7, "sales": 880 },
+      "seller": {
+        "name": "Fuga Store",
+        "rating": 4.7,
+        "sales": 880
+      },
       "description": "Exclusivo jogo Fuga Simulator 2026 incluso. Os controles realmente vêm sem bateria. Tudo fake.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 5,
-      "attributes": [{ "name": "Jogos", "value": "Fuga Simulator" }]
+      "attributes": [
+        {
+          "name": "Jogos",
+          "value": "Fuga Simulator"
+        }
+      ]
     },
     {
       "id": "mp-06",
@@ -118,28 +209,52 @@
       "price": 259.9,
       "originalPrice": 499,
       "category": "eletronicos",
-      "images": ["https://picsum.photos/seed/mp-06a/800/800"],
-      "seller": { "name": "Pátio Imports", "rating": 4.4, "sales": 3321 },
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1434493789847-2f02dc4154dc?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Pátio Imports",
+        "rating": 4.4,
+        "sales": 3321
+      },
       "description": "Monitora batimentos, passos e a contagem regressiva até a merenda. Simulação.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 44,
-      "attributes": [{ "name": "Pulseira", "value": "Laranja" }]
+      "attributes": [
+        {
+          "name": "Pulseira",
+          "value": "Laranja"
+        }
+      ]
     },
     {
       "id": "mp-07",
       "title": "Tablet Grade 11 Polegadas para Visitação por Vídeo",
       "price": 899,
       "category": "eletronicos",
-      "images": ["https://picsum.photos/seed/mp-07a/800/800"],
-      "seller": { "name": "Loja do Diretor", "rating": 4.1, "sales": 670 },
+      "images": [
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Loja do Diretor",
+        "rating": 4.1,
+        "sales": 670
+      },
       "description": "Tela protegida por grade. Chamadas só para a lista de visitantes aprovados. Não existe.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": false,
       "stock": 22,
-      "attributes": [{ "name": "Tela", "value": "11\"" }]
+      "attributes": [
+        {
+          "name": "Tela",
+          "value": "11\""
+        }
+      ]
     },
     {
       "id": "mp-08",
@@ -147,14 +262,26 @@
       "price": 329.9,
       "originalPrice": 599,
       "category": "eletronicos",
-      "images": ["https://picsum.photos/seed/mp-08a/800/800"],
-      "seller": { "name": "Cela 12 Oficial", "rating": 4.8, "sales": 12003 },
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Cela 12 Oficial",
+        "rating": 4.8,
+        "sales": 12003
+      },
       "description": "Volume máximo permitido: merenda. Depois disso, apreendido. Produto fictício.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 31,
-      "attributes": [{ "name": "Potência", "value": "100W RMS" }]
+      "attributes": [
+        {
+          "name": "Potência",
+          "value": "100W RMS"
+        }
+      ]
     },
     {
       "id": "mp-09",
@@ -163,30 +290,51 @@
       "originalPrice": 799,
       "category": "casa",
       "images": [
-        "https://picsum.photos/seed/mp-09a/800/800",
-        "https://picsum.photos/seed/mp-09b/800/800"
+        "https://images.unsplash.com/photo-1585515320310-259814833e62?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&h=800&q=80"
       ],
-      "seller": { "name": "Merenda Express", "rating": 4.9, "sales": 22011 },
+      "seller": {
+        "name": "Merenda Express",
+        "rating": 4.9,
+        "sales": 22011
+      },
       "description": "Frita sem óleo e sem resultado. Receita oficial: coxinha presa. Simulação MercadoPreso.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 40,
-      "attributes": [{ "name": "Capacidade", "value": "8 L" }]
+      "attributes": [
+        {
+          "name": "Capacidade",
+          "value": "8 L"
+        }
+      ]
     },
     {
       "id": "mp-10",
       "title": "Geladeira Inverse Porta Trancada Frost Free 400L",
       "price": 2799,
       "category": "casa",
-      "images": ["https://picsum.photos/seed/mp-10a/800/800"],
-      "seller": { "name": "Grades & Cia", "rating": 4.5, "sales": 411 },
+      "images": [
+        "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1571175443880-49e1d25b6bc3?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Grades & Cia",
+        "rating": 4.5,
+        "sales": 411
+      },
       "description": "Porta com tranca. A chave fica com o diretor. Produto não será entregue.",
       "condition": "novo",
       "shippingLabel": "Preso Envios",
       "freeShipping": true,
       "stock": 3,
-      "attributes": [{ "name": "Capacidade", "value": "400 L" }]
+      "attributes": [
+        {
+          "name": "Capacidade",
+          "value": "400 L"
+        }
+      ]
     },
     {
       "id": "mp-11",
@@ -194,14 +342,26 @@
       "price": 1199,
       "originalPrice": 1899,
       "category": "casa",
-      "images": ["https://picsum.photos/seed/mp-11a/800/800"],
-      "seller": { "name": "Fuga Store", "rating": 4.3, "sales": 1502 },
+      "images": [
+        "https://images.unsplash.com/photo-1558317374-0581c7082a2e?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Fuga Store",
+        "rating": 4.3,
+        "sales": 1502
+      },
       "description": "Mapeia a casa e acha a janela. Autonomia de 1 fuga. Tudo de mentira.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 14,
-      "attributes": [{ "name": "Autonomia", "value": "90 min" }]
+      "attributes": [
+        {
+          "name": "Autonomia",
+          "value": "90 min"
+        }
+      ]
     },
     {
       "id": "mp-12",
@@ -209,28 +369,52 @@
       "price": 299.9,
       "originalPrice": 459,
       "category": "casa",
-      "images": ["https://picsum.photos/seed/mp-12a/800/800"],
-      "seller": { "name": "Casa de Detenção Shop", "rating": 4.6, "sales": 8802 },
+      "images": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1584990347449-39b3e2c241ad?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Casa de Detenção Shop",
+        "rating": 4.6,
+        "sales": 8802
+      },
       "description": "Não gruda comida nem responsabilidade. Simulação.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 55,
-      "attributes": [{ "name": "Peças", "value": "10" }]
+      "attributes": [
+        {
+          "name": "Peças",
+          "value": "10"
+        }
+      ]
     },
     {
       "id": "mp-13",
       "title": "Colchão de Mola Presa Queen Extra Firme",
       "price": 899,
       "category": "casa",
-      "images": ["https://picsum.photos/seed/mp-13a/800/800"],
-      "seller": { "name": "Loja do Diretor", "rating": 4.0, "sales": 290 },
+      "images": [
+        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Loja do Diretor",
+        "rating": 4,
+        "sales": 290
+      },
       "description": "Conforto de beliche com pretensão de hotel. Não enviaremos este colchão.",
       "condition": "novo",
       "shippingLabel": "Preso Envios",
       "freeShipping": false,
       "stock": 8,
-      "attributes": [{ "name": "Tamanho", "value": "Queen" }]
+      "attributes": [
+        {
+          "name": "Tamanho",
+          "value": "Queen"
+        }
+      ]
     },
     {
       "id": "mp-14",
@@ -238,14 +422,26 @@
       "price": 649.9,
       "originalPrice": 999,
       "category": "casa",
-      "images": ["https://picsum.photos/seed/mp-14a/800/800"],
-      "seller": { "name": "Merenda Express", "rating": 4.8, "sales": 6400 },
+      "images": [
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1511920170033-20899780c850?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Merenda Express",
+        "rating": 4.8,
+        "sales": 6400
+      },
       "description": "Café forte o suficiente para aguentar a revista. Produto fictício.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 19,
-      "attributes": [{ "name": "Pressão", "value": "15 bar" }]
+      "attributes": [
+        {
+          "name": "Pressão",
+          "value": "15 bar"
+        }
+      ]
     },
     {
       "id": "mp-15",
@@ -254,18 +450,28 @@
       "originalPrice": 699.9,
       "category": "moda",
       "images": [
-        "https://picsum.photos/seed/mp-15a/800/800",
-        "https://picsum.photos/seed/mp-15b/800/800"
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=800&h=800&q=80"
       ],
-      "seller": { "name": "Fuga Store", "rating": 4.7, "sales": 15440 },
+      "seller": {
+        "name": "Fuga Store",
+        "rating": 4.7,
+        "sales": 15440
+      },
       "description": "Amortecimento para pátio e imaginação. Não corre de verdade — é paródia.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 60,
       "attributes": [
-        { "name": "Numeração", "value": "34 ao 44" },
-        { "name": "Cor", "value": "Laranja alarme" }
+        {
+          "name": "Numeração",
+          "value": "34 ao 44"
+        },
+        {
+          "name": "Cor",
+          "value": "Laranja alarme"
+        }
       ]
     },
     {
@@ -274,28 +480,52 @@
       "price": 59.9,
       "originalPrice": 99.9,
       "category": "moda",
-      "images": ["https://picsum.photos/seed/mp-16a/800/800"],
-      "seller": { "name": "Casa de Detenção Shop", "rating": 4.9, "sales": 99012 },
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1576566588028-4141b76c159c?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Casa de Detenção Shop",
+        "rating": 4.9,
+        "sales": 99012
+      },
       "description": "O clássico. Combina com tornozeleira (também fictícia). Simulação.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 400,
-      "attributes": [{ "name": "Tamanhos", "value": "P ao G3" }]
+      "attributes": [
+        {
+          "name": "Tamanhos",
+          "value": "P ao G3"
+        }
+      ]
     },
     {
       "id": "mp-17",
       "title": "Jaqueta Corta-Vento Corta-Fiança",
       "price": 229.9,
       "category": "moda",
-      "images": ["https://picsum.photos/seed/mp-17a/800/800"],
-      "seller": { "name": "Pátio Imports", "rating": 4.4, "sales": 2100 },
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Pátio Imports",
+        "rating": 4.4,
+        "sales": 2100
+      },
       "description": "Impermeável a chuva e a argumentos. Não será cobrado nem enviado.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 27,
-      "attributes": [{ "name": "Material", "value": "Poliéster arrependido" }]
+      "attributes": [
+        {
+          "name": "Material",
+          "value": "Poliéster arrependido"
+        }
+      ]
     },
     {
       "id": "mp-18",
@@ -303,28 +533,52 @@
       "price": 139.9,
       "originalPrice": 219.9,
       "category": "moda",
-      "images": ["https://picsum.photos/seed/mp-18a/800/800"],
-      "seller": { "name": "Cela 12 Oficial", "rating": 4.5, "sales": 7333 },
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Cela 12 Oficial",
+        "rating": 4.5,
+        "sales": 7333
+      },
       "description": "Cintura alta, liberdade baixa. Produto de mentira.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 80,
-      "attributes": [{ "name": "Lavagem", "value": "Escura" }]
+      "attributes": [
+        {
+          "name": "Lavagem",
+          "value": "Escura"
+        }
+      ]
     },
     {
       "id": "mp-19",
       "title": "Boné Aba Reta Diretor Edition",
       "price": 79.9,
       "category": "moda",
-      "images": ["https://picsum.photos/seed/mp-19a/800/800"],
-      "seller": { "name": "Loja do Diretor", "rating": 4.2, "sales": 980 },
+      "images": [
+        "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Loja do Diretor",
+        "rating": 4.2,
+        "sales": 980
+      },
       "description": "Autoridade instantânea. Zero efeito jurídico. Simulação.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 50,
-      "attributes": [{ "name": "Aba", "value": "Reta" }]
+      "attributes": [
+        {
+          "name": "Aba",
+          "value": "Reta"
+        }
+      ]
     },
     {
       "id": "mp-20",
@@ -332,28 +586,52 @@
       "price": 89.9,
       "originalPrice": 149.9,
       "category": "esportes",
-      "images": ["https://picsum.photos/seed/mp-20a/800/800"],
-      "seller": { "name": "Pátio Imports", "rating": 4.8, "sales": 4400 },
+      "images": [
+        "https://images.unsplash.com/photo-1614632537190-23e4b2e69c88?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Pátio Imports",
+        "rating": 4.8,
+        "sales": 4400
+      },
       "description": "Padrão FIFA do pátio. Apito do agente incluso (de mentira).",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 90,
-      "attributes": [{ "name": "Tamanho", "value": "4" }]
+      "attributes": [
+        {
+          "name": "Tamanho",
+          "value": "4"
+        }
+      ]
     },
     {
       "id": "mp-21",
       "title": "Bicicleta Ergométrica que Não Sai do Lugar",
       "price": 1599,
       "category": "esportes",
-      "images": ["https://picsum.photos/seed/mp-21a/800/800"],
-      "seller": { "name": "Grades & Cia", "rating": 4.1, "sales": 122 },
+      "images": [
+        "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Grades & Cia",
+        "rating": 4.1,
+        "sales": 122
+      },
       "description": "A metáfora mais honesta do catálogo. Frete também não sai do lugar.",
       "condition": "novo",
       "shippingLabel": "Preso Envios",
       "freeShipping": false,
       "stock": 4,
-      "attributes": [{ "name": "Níveis", "value": "8 resistências" }]
+      "attributes": [
+        {
+          "name": "Níveis",
+          "value": "8 resistências"
+        }
+      ]
     },
     {
       "id": "mp-22",
@@ -361,14 +639,26 @@
       "price": 249.9,
       "originalPrice": 399,
       "category": "esportes",
-      "images": ["https://picsum.photos/seed/mp-22a/800/800"],
-      "seller": { "name": "Fuga Store", "rating": 4.6, "sales": 3011 },
+      "images": [
+        "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Fuga Store",
+        "rating": 4.6,
+        "sales": 3011
+      },
       "description": "Montável. Desmontável. Indenizável? Não, porque é fake.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 25,
-      "attributes": [{ "name": "Peso", "value": "20 kg" }]
+      "attributes": [
+        {
+          "name": "Peso",
+          "value": "20 kg"
+        }
+      ]
     },
     {
       "id": "mp-23",
@@ -376,14 +666,26 @@
       "price": 1899,
       "originalPrice": 2599,
       "category": "esportes",
-      "images": ["https://picsum.photos/seed/mp-23a/800/800"],
-      "seller": { "name": "Loja do Diretor", "rating": 4.3, "sales": 210 },
+      "images": [
+        "https://images.unsplash.com/photo-1576678927484-cc907957dbc4?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Loja do Diretor",
+        "rating": 4.3,
+        "sales": 210
+      },
       "description": "Corra o quanto quiser: a parede continua lá. Simulação.",
       "condition": "novo",
       "shippingLabel": "Preso Envios",
       "freeShipping": true,
       "stock": 6,
-      "attributes": [{ "name": "Velocidade", "value": "até 10 km/h" }]
+      "attributes": [
+        {
+          "name": "Velocidade",
+          "value": "até 10 km/h"
+        }
+      ]
     },
     {
       "id": "mp-24",
@@ -391,42 +693,78 @@
       "price": 49.9,
       "originalPrice": 79.9,
       "category": "livros",
-      "images": ["https://picsum.photos/seed/mp-24a/800/800"],
-      "seller": { "name": "Sentença Distribuidora", "rating": 4.9, "sales": 18002 },
+      "images": [
+        "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Sentença Distribuidora",
+        "rating": 4.9,
+        "sales": 18002
+      },
       "description": "Todos os capítulos foram substituídos por páginas em branco. Best-seller do pátio.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 200,
-      "attributes": [{ "name": "Páginas", "value": "0 úteis" }]
+      "attributes": [
+        {
+          "name": "Páginas",
+          "value": "0 úteis"
+        }
+      ]
     },
     {
       "id": "mp-25",
       "title": "Box Game of Grades — 8 Temporadas em DVD",
       "price": 199.9,
       "category": "livros",
-      "images": ["https://picsum.photos/seed/mp-25a/800/800"],
-      "seller": { "name": "Cela 12 Oficial", "rating": 4.7, "sales": 5600 },
+      "images": [
+        "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Cela 12 Oficial",
+        "rating": 4.7,
+        "sales": 5600
+      },
       "description": "Ninguém está satisfeito com o final. Inclusive você, que não vai receber o box.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 33,
-      "attributes": [{ "name": "Temporadas", "value": "8" }]
+      "attributes": [
+        {
+          "name": "Temporadas",
+          "value": "8"
+        }
+      ]
     },
     {
       "id": "mp-26",
       "title": "HQ Super-Preso vs Capitão Fiança Capa Dura",
       "price": 39.9,
       "category": "livros",
-      "images": ["https://picsum.photos/seed/mp-26a/800/800"],
-      "seller": { "name": "Sentença Distribuidora", "rating": 4.8, "sales": 4201 },
+      "images": [
+        "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1608889175123-8ee362201f81?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Sentença Distribuidora",
+        "rating": 4.8,
+        "sales": 4201
+      },
       "description": "Edição especial com cheiro de merenda. Fictício.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 70,
-      "attributes": [{ "name": "Formato", "value": "Capa dura" }]
+      "attributes": [
+        {
+          "name": "Formato",
+          "value": "Capa dura"
+        }
+      ]
     },
     {
       "id": "mp-27",
@@ -435,30 +773,51 @@
       "originalPrice": 999,
       "category": "brinquedos",
       "images": [
-        "https://picsum.photos/seed/mp-27a/800/800",
-        "https://picsum.photos/seed/mp-27b/800/800"
+        "https://images.unsplash.com/photo-1587654780291-8838defca4c0?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=800&h=800&q=80"
       ],
-      "seller": { "name": "Fuga Store", "rating": 4.9, "sales": 2110 },
+      "seller": {
+        "name": "Fuga Store",
+        "rating": 4.9,
+        "sales": 2110
+      },
       "description": "Monta, tranca, desmonta, foge. Peças pequenas, liberdade nenhuma. Paródia.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 12,
-      "attributes": [{ "name": "Peças", "value": "4000" }]
+      "attributes": [
+        {
+          "name": "Peças",
+          "value": "4000"
+        }
+      ]
     },
     {
       "id": "mp-28",
       "title": "Boneco Action Figure Agente Penitenciário Articulado",
       "price": 129.9,
       "category": "brinquedos",
-      "images": ["https://picsum.photos/seed/mp-28a/800/800"],
-      "seller": { "name": "Casa de Detenção Shop", "rating": 4.4, "sales": 1888 },
+      "images": [
+        "https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Casa de Detenção Shop",
+        "rating": 4.4,
+        "sales": 1888
+      },
       "description": "Olhar de quem viu tudo. Não pisca. Não existe.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 41,
-      "attributes": [{ "name": "Altura", "value": "18 cm" }]
+      "attributes": [
+        {
+          "name": "Altura",
+          "value": "18 cm"
+        }
+      ]
     },
     {
       "id": "mp-29",
@@ -466,14 +825,26 @@
       "price": 99.9,
       "originalPrice": 159.9,
       "category": "brinquedos",
-      "images": ["https://picsum.photos/seed/mp-29a/800/800"],
-      "seller": { "name": "Pátio Imports", "rating": 4.6, "sales": 9090 },
+      "images": [
+        "https://images.unsplash.com/photo-1632501641765-e568d28b0015?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Pátio Imports",
+        "rating": 4.6,
+        "sales": 9090
+      },
       "description": "Compre celas, cobre visita, vá para o isolamento. Dinheiro do jogo, como o da loja.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 36,
-      "attributes": [{ "name": "Jogadores", "value": "2 a 6" }]
+      "attributes": [
+        {
+          "name": "Jogadores",
+          "value": "2 a 6"
+        }
+      ]
     },
     {
       "id": "mp-30",
@@ -481,28 +852,52 @@
       "price": 189.9,
       "originalPrice": 320,
       "category": "beleza",
-      "images": ["https://picsum.photos/seed/mp-30a/800/800"],
-      "seller": { "name": "Merenda Express", "rating": 4.7, "sales": 6701 },
+      "images": [
+        "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Merenda Express",
+        "rating": 4.7,
+        "sales": 6701
+      },
       "description": "Hidratação profunda e arrependimento superficial. Simulação.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 48,
-      "attributes": [{ "name": "Passos", "value": "10" }]
+      "attributes": [
+        {
+          "name": "Passos",
+          "value": "10"
+        }
+      ]
     },
     {
       "id": "mp-31",
       "title": "Perfume Eau de Pátio 100ml",
       "price": 249.9,
       "category": "beleza",
-      "images": ["https://picsum.photos/seed/mp-31a/800/800"],
-      "seller": { "name": "Loja do Diretor", "rating": 4.5, "sales": 2300 },
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1594035910387-fea477942834?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Loja do Diretor",
+        "rating": 4.5,
+        "sales": 2300
+      },
       "description": "Notas de café, concreto molhado e esperança. Frasco vazio de propósito? Não saberemos, não envia.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 21,
-      "attributes": [{ "name": "Volume", "value": "100 ml" }]
+      "attributes": [
+        {
+          "name": "Volume",
+          "value": "100 ml"
+        }
+      ]
     },
     {
       "id": "mp-32",
@@ -510,14 +905,26 @@
       "price": 69.9,
       "originalPrice": 119.9,
       "category": "beleza",
-      "images": ["https://picsum.photos/seed/mp-32a/800/800"],
-      "seller": { "name": "Cela 12 Oficial", "rating": 4.3, "sales": 5100 },
+      "images": [
+        "https://images.unsplash.com/photo-1621605815971-fbc54cdfc4f0?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Cela 12 Oficial",
+        "rating": 4.3,
+        "sales": 5100
+      },
       "description": "A lâmina vem lacrada e permanece lacrada. Paródia.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 77,
-      "attributes": [{ "name": "Lâminas", "value": "0 liberadas" }]
+      "attributes": [
+        {
+          "name": "Lâminas",
+          "value": "0 liberadas"
+        }
+      ]
     },
     {
       "id": "mp-33",
@@ -525,42 +932,78 @@
       "price": 42.9,
       "originalPrice": 59.9,
       "category": "alimentos",
-      "images": ["https://picsum.photos/seed/mp-33a/800/800"],
-      "seller": { "name": "Merenda Express", "rating": 5, "sales": 33000 },
+      "images": [
+        "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Merenda Express",
+        "rating": 5,
+        "sales": 33000
+      },
       "description": "Torrado até a alma. Acompanha fofoca do pátio (não incluso, não existe).",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 150,
-      "attributes": [{ "name": "Peso", "value": "1 kg" }]
+      "attributes": [
+        {
+          "name": "Peso",
+          "value": "1 kg"
+        }
+      ]
     },
     {
       "id": "mp-34",
       "title": "Combo Coxinha Presa Congelada 20 Unidades",
       "price": 34.9,
       "category": "alimentos",
-      "images": ["https://picsum.photos/seed/mp-34a/800/800"],
-      "seller": { "name": "Merenda Express", "rating": 4.9, "sales": 21004 },
+      "images": [
+        "https://images.unsplash.com/photo-1562967916-eb82221dfb92?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1626082927389-6cd097cdc6e4?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Merenda Express",
+        "rating": 4.9,
+        "sales": 21004
+      },
       "description": "O lanche oficial. Recheio: mistério institucional. Fake food.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 90,
-      "attributes": [{ "name": "Unidades", "value": "20" }]
+      "attributes": [
+        {
+          "name": "Unidades",
+          "value": "20"
+        }
+      ]
     },
     {
       "id": "mp-35",
       "title": "Óleo de Dendê da Merenda 900ml",
       "price": 18.9,
       "category": "alimentos",
-      "images": ["https://picsum.photos/seed/mp-35a/800/800"],
-      "seller": { "name": "Casa de Detenção Shop", "rating": 4.6, "sales": 8001 },
+      "images": [
+        "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Casa de Detenção Shop",
+        "rating": 4.6,
+        "sales": 8001
+      },
       "description": "Dá cor ao feijão e ao uniforme. Não será faturado.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 200,
-      "attributes": [{ "name": "Volume", "value": "900 ml" }]
+      "attributes": [
+        {
+          "name": "Volume",
+          "value": "900 ml"
+        }
+      ]
     },
     {
       "id": "mp-36",
@@ -568,28 +1011,52 @@
       "price": 159.9,
       "originalPrice": 249.9,
       "category": "automotivo",
-      "images": ["https://picsum.photos/seed/mp-36a/800/800"],
-      "seller": { "name": "Grades & Cia", "rating": 4.2, "sales": 640 },
+      "images": [
+        "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Grades & Cia",
+        "rating": 4.2,
+        "sales": 640
+      },
       "description": "Transforma qualquer carro em viatura de brinquedo. Simulação.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 18,
-      "attributes": [{ "name": "Compatibilidade", "value": "Universal" }]
+      "attributes": [
+        {
+          "name": "Compatibilidade",
+          "value": "Universal"
+        }
+      ]
     },
     {
       "id": "mp-37",
       "title": "GPS Automotivo que Só Mostra a Rota de Volta",
       "price": 289.9,
       "category": "automotivo",
-      "images": ["https://picsum.photos/seed/mp-37a/800/800"],
-      "seller": { "name": "Fuga Store", "rating": 3.9, "sales": 404 },
+      "images": [
+        "https://images.unsplash.com/photo-1524661132064-895535b409c0?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Fuga Store",
+        "rating": 3.9,
+        "sales": 404
+      },
       "description": "Recalculando... sempre para o mesmo endereço. Paródia.",
       "condition": "usado",
       "shippingLabel": "Frete Preso",
       "freeShipping": false,
       "stock": 2,
-      "attributes": [{ "name": "Tela", "value": "7\"" }]
+      "attributes": [
+        {
+          "name": "Tela",
+          "value": "7\""
+        }
+      ]
     },
     {
       "id": "mp-38",
@@ -597,28 +1064,52 @@
       "price": 189.9,
       "originalPrice": 249.9,
       "category": "pet",
-      "images": ["https://picsum.photos/seed/mp-38a/800/800"],
-      "seller": { "name": "Pátio Imports", "rating": 4.8, "sales": 3900 },
+      "images": [
+        "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Pátio Imports",
+        "rating": 4.8,
+        "sales": 3900
+      },
       "description": "Sabor pátio. Seu cão não vai receber, porque nada sai daqui.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 28,
-      "attributes": [{ "name": "Peso", "value": "15 kg" }]
+      "attributes": [
+        {
+          "name": "Peso",
+          "value": "15 kg"
+        }
+      ]
     },
     {
       "id": "mp-39",
       "title": "Arranhador para Gato Grade Alta 1,6m",
       "price": 219.9,
       "category": "pet",
-      "images": ["https://picsum.photos/seed/mp-39a/800/800"],
-      "seller": { "name": "Cela 12 Oficial", "rating": 4.7, "sales": 1500 },
+      "images": [
+        "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Cela 12 Oficial",
+        "rating": 4.7,
+        "sales": 1500
+      },
       "description": "Torre com vista para o corredor. Gato continua indoor. Fake.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 9,
-      "attributes": [{ "name": "Altura", "value": "1,6 m" }]
+      "attributes": [
+        {
+          "name": "Altura",
+          "value": "1,6 m"
+        }
+      ]
     },
     {
       "id": "mp-40",
@@ -626,14 +1117,26 @@
       "price": 99.9,
       "originalPrice": 179.9,
       "category": "pet",
-      "images": ["https://picsum.photos/seed/mp-40a/800/800"],
-      "seller": { "name": "Fuga Store", "rating": 4.1, "sales": 2200 },
+      "images": [
+        "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=800&h=800&q=80",
+        "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&h=800&q=80"
+      ],
+      "seller": {
+        "name": "Fuga Store",
+        "rating": 4.1,
+        "sales": 2200
+      },
       "description": "Rastreia até a porta. Depois, silêncio. Tudo simulado.",
       "condition": "novo",
       "shippingLabel": "Frete Preso",
       "freeShipping": true,
       "stock": 35,
-      "attributes": [{ "name": "Tamanho", "value": "Ajustável" }]
+      "attributes": [
+        {
+          "name": "Tamanho",
+          "value": "Ajustável"
+        }
+      ]
     }
   ]
 }

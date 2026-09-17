@@ -81,7 +81,7 @@ export async function tryMlSearch(q: string): Promise<Product[] | null> {
     `https://api.mercadolibre.com/sites/MLB/search?q=${encodeURIComponent(q)}&limit=20`,
   );
   const results = data?.results;
-  if (!Array.isArray(results) || results.length === 0) return null;
+  if (!Array.isArray(results)) return null;
   return results.map(mapMlItem);
 }
 

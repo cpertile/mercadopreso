@@ -23,23 +23,34 @@ function sortProducts(products: Product[], sort?: SearchParams["sort"]) {
   return copy;
 }
 
-export function getLocalProduct(id: string) {
-  return localProducts.find((product) => product.id === id) ?? null;
-}
-
-export function searchLocal(params: SearchParams): SearchResult {
-  const filtered = localProducts.filter((product) => {
+function listLocalMatches(params: SearchParams) {
+  return localProducts.filter((product) => {
     const byCategory = params.category ? product.category === params.category : true;
     return byCategory && matchesQuery(product, params.q);
   });
-  const sorted = sortProducts(filtered, params.sort);
+}
+
+function paginate(
+  products: Product[],
+  params: SearchParams,
+  source: SearchResult["source"],
+): SearchResult {
+  const sorted = sortProducts(products, params.sort);
   const offset = params.offset ?? 0;
   const limit = params.limit ?? 48;
   return {
     results: sorted.slice(offset, offset + limit),
     total: sorted.length,
-    source: "local",
+    source,
   };
+}
+
+export function getLocalProduct(id: string) {
+  return localProducts.find((product) => product.id === id) ?? null;
+}
+
+export function searchLocal(params: SearchParams): SearchResult {
+  return paginate(listLocalMatches(params), params, "local");
 }
 
 export function featuredProducts() {
@@ -55,24 +66,24 @@ export function getCategory(slug: string) {
 }
 
 export async function searchCatalog(params: SearchParams): Promise<SearchResult> {
-  const local = searchLocal(params);
-  if (!params.q?.trim() || params.category) return local;
+  const localMatches = listLocalMatches(params);
+  if (!params.q?.trim() || params.category) {
+    return paginate(localMatches, params, "local");
+  }
 
   const remote = await tryMlSearch(params.q);
-  if (!remote?.length) return local;
+  if (remote === null) {
+    return { ...paginate(localMatches, params, "local"), ml: "unavailable" };
+  }
+  if (!remote.length) {
+    return { ...paginate(localMatches, params, "local"), ml: "empty" };
+  }
 
   const merged = [
     ...remote,
-    ...local.results.filter((product) => !remote.some((item) => item.id === product.id)),
+    ...localMatches.filter((product) => !remote.some((item) => item.id === product.id)),
   ];
-  const sorted = sortProducts(merged, params.sort);
-  const offset = params.offset ?? 0;
-  const limit = params.limit ?? 48;
-  return {
-    results: sorted.slice(offset, offset + limit),
-    total: sorted.length,
-    source: "mixed",
-  };
+  return { ...paginate(merged, params, "mixed"), ml: "ok" };
 }
 
 export async function getProduct(id: string) {

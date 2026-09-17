@@ -25,7 +25,7 @@ export default async function SearchPage({ searchParams }: Props) {
           <p className="text-sm text-[#666]">
             {result.total} anúncio{result.total === 1 ? "" : "s"}
             {result.source === "mixed" ? " · incluindo Mercado Livre" : ""}
-            {result.source === "local" && q ? " · catálogo local (API do ML indisponível)" : ""}
+            {result.ml === "unavailable" ? " · catálogo local (API do ML indisponível)" : ""}
           </p>
         </div>
         <div className="flex gap-2 text-sm">
