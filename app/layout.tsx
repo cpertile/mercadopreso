@@ -11,9 +11,24 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mercadopreso.vercel.app"),
   title: "MercadoPreso — compras 100% simuladas",
   description:
     "Paródia do Mercado Livre. Nada é cobrado, nada é enviado, os produtos não existem.",
+  openGraph: {
+    title: "MercadoPreso — compras 100% simuladas",
+    description:
+      "Paródia do Mercado Livre. Nada é cobrado, nada é enviado, os produtos não existem.",
+    siteName: "MercadoPreso",
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "MercadoPreso — compras 100% simuladas",
+    description:
+      "Paródia do Mercado Livre. Nada é cobrado, nada é enviado, os produtos não existem.",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
